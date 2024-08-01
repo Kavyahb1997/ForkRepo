@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Apple test executed]]>
+    </line>
+    <line>
+      <![CDATA[Flipkart test executed]]>
+    </line>
+    <line>
+      <![CDATA[Sample Test executed]]>
+    </line>
+    <line>
+      <![CDATA[Wipro test executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="63293" started-at="2024-07-30T14:39:16 IST" finished-at="2024-07-30T14:40:20 IST">
+    <groups>
+      <group name="system">
+        <method signature="FlipkartTest.launch()[pri:0, instance:demo.FlipkartTest@646d64ab]" name="launch" class="demo.FlipkartTest"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="AppleTest.launch()[pri:0, instance:demo.AppleTest@1786dec2]" name="launch" class="demo.AppleTest"/>
+        <method signature="WiproTest.launch()[pri:0, instance:demo.WiproTest@536aaa8d]" name="launch" class="demo.WiproTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Surefire test" duration-ms="63293" started-at="2024-07-30T14:39:16 IST" finished-at="2024-07-30T14:40:20 IST">
+      <class name="demo.AppleTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:demo.AppleTest@1786dec2]" name="launch" duration-ms="38504" started-at="2024-07-30T14:39:17 IST" finished-at="2024-07-30T14:39:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Apple test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- demo.AppleTest -->
+      <class name="demo.WiproTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:demo.WiproTest@536aaa8d]" name="launch" duration-ms="19011" started-at="2024-07-30T14:40:01 IST" finished-at="2024-07-30T14:40:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Wipro test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- demo.WiproTest -->
+      <class name="demo.FlipkartTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:demo.FlipkartTest@646d64ab]" name="launch" duration-ms="5663" started-at="2024-07-30T14:39:55 IST" finished-at="2024-07-30T14:40:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Flipkart test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- demo.FlipkartTest -->
+      <class name="demo.SampleTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:demo.SampleTest@59e5ddf]" name="login" duration-ms="2" started-at="2024-07-30T14:40:01 IST" finished-at="2024-07-30T14:40:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Sample Test executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- demo.SampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
